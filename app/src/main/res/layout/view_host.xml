@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/host_off"
+        android:layout_marginBottom="6dp" />
+
+    <RadioGroup
+        android:id="@+id/view_host_rdg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/view_host_rdg_rd1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/selectro_index_ico"
+            android:gravity="center_horizontal"
+            android:text="@string/host_index"
+            android:textColor="@drawable/selectro_font_color" />
+
+        <RadioButton
+            android:id="@+id/view_host_rdg_rd2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+
+            android:drawableTop="@drawable/selectro_class_ico"
+            android:gravity="center_horizontal"
+            android:text="@string/host_class"
+            android:textColor="@drawable/selectro_font_color" />
+
+        <RadioButton
+            android:id="@+id/view_host_rdg_rd3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/selectro_my_ico"
+            android:gravity="center_horizontal"
+            android:text="@string/host_my"
+            android:textColor="@drawable/selectro_font_color" />
+    </RadioGroup>
+
+</LinearLayout>

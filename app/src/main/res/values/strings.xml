@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Yi购</string>
+    <string name="host_index">首页</string>
+    <string name="host_class">分类</string>
+    <string name="host_my">我的</string>
+    <string name="souso_bt">搜索</string>
+    <string name="choose">筛选</string>
+    <string name="s_def">默认</string>
+    <string name="s_sales">销量</string>
+    <string name="s_price">价格</string>
+    <string name="s_newest">最新</string>
+    <string name="my_coun">我的收藏</string>
+    <string name="goods_info">商品详细</string>
+    <array name="my_ar">
+        <item>订单</item>
+        <item>物流查询</item>
+        <item>购物车</item>
+        <item>系统设置</item>
+    </array>
+    <array name="Classify">
+        <item>女装</item>
+        <item>鞋品</item>
+        <item>内衣</item>
+        <item>美妆</item>
+        <item>男装</item>
+        <item>箱包</item>
+        <item>今日更新</item>
+        <item>更多</item>
+    </array>
+    <array name="ClassifyQ">
+        <item>女装</item>
+        <item>男装</item>
+        <item>鞋品</item>
+        <item>箱包</item>
+        <item>内衣</item>
+        <item>美妆个护</item>
+        <item>配饰</item>
+        <item>中老年</item>
+        <item>母婴</item>
+        <item>居家</item>
+        <item>美食</item>
+        <item>数码家电</item>
+        <item>文体</item>
+        <item>9.9包邮</item>
+        <item>今日更新</item>
+    </array>
+
+    <string name="tilte">羊毛绒中长款棉服外套</string>
+    <string name="mony">79</string>
+    <string name="mony_ico">￥</string>
+    <string name="discount">折</string>
+    <string name="souso_h">寻找商品</string>
+</resources>

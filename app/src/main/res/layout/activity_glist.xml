@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.fei.coatgo.Activity.GListActivity">
+
+    <RelativeLayout
+        android:id="@+id/gls_head_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/host_on"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="9dp"
+        >
+
+        <TextView
+            android:id="@+id/gls_tilte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:drawablePadding="9dp"
+            android:drawableRight="@mipmap/ic_category_title_down"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/gls_choose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="@string/choose"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/shap_cir"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/gls_def"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="9dp"
+            android:text="@string/s_def"
+            android:textColor="@color/host_on"
+            />
+
+        <TextView
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/host_off"
+            />
+
+        <TextView
+            android:id="@+id/gls_sales"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="9dp"
+            android:text="@string/s_sales"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/host_off"
+            />
+
+        <TextView
+            android:id="@+id/gls_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableRight="@mipmap/ic_sort_unselected"
+            android:gravity="center"
+            android:padding="9dp"
+            android:text="@string/s_price"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/host_off"
+            />
+
+        <TextView
+            android:id="@+id/gls_newest"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="9dp"
+            android:text="@string/s_newest"
+            android:textColor="@color/black"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="2dp"
+        >
+
+        <GridView
+            android:id="@+id/gls_grd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="2"
+
+            />
+
+    </LinearLayout>
+</LinearLayout>

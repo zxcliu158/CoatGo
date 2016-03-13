@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/host_on"
+        android:gravity="center"
+        android:padding="18dp"
+        android:text="@string/host_my"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        >
+        <include
+            android:id="@+id/frm_my_order"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            layout="@layout/item_img_tx"
+            />
+        <include
+            android:id="@+id/frm_my_logistics"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            layout="@layout/item_img_tx"
+            />
+        <include
+            android:id="@+id/frm_my_cart"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            layout="@layout/item_img_tx"
+            />
+        <include
+            android:id="@+id/frm_my_setting"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            layout="@layout/item_img_tx"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/host_off"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="9dp"
+            android:gravity="center_vertical"
+            >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/usericon_collect"
+            />
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/my_coun"
+                android:textSize="16dp"
+                android:layout_marginLeft="9dp"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+        <GridView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/frm_my_grd"
+            android:numColumns="2"
+            android:layout_margin="2dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

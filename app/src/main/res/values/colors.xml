@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="host_on">#F84E4E</color>
+    <color name="host_off">#BEC2C7</color>
+    <color name="white">#ffffff</color>
+    <color name="my_transp">#60000000</color>
+    <color name="black">#000</color>
+    <color name="sousouf">#a9b7b7</color>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fei.coatgo.Activity.SearchActivity"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/host_on"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/frm_class_sousou"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shap_fillet"
+            android:drawableLeft="@mipmap/iconfont_sousuo_h"
+            android:gravity="center_vertical"
+            android:drawablePadding="3dp"
+            android:padding="5dp"
+            android:text="@string/souso_h"
+            android:textColor="@color/sousouf" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/souso_bt"
+            android:padding="5dp"
+            android:textSize="17sp"
+            android:layout_marginLeft="3dp"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <GridView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="2"
+            android:verticalSpacing="1dp"
+            android:horizontalSpacing="1dp"
+            />
+
+    </FrameLayout>
+</LinearLayout>
